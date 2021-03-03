@@ -1,0 +1,49 @@
+﻿  main.cpp
+c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(1001): warning C4005: 'M_PI': macro redefinition
+  e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\sdl-2.0.7\include\sdl_stdinc.h(499): note: see previous definition of 'M_PI'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(159): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(219): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(475): note: see declaration of 'ctime'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(228): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(232): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(235): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(238): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(312): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(314): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(321): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(323): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(325): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(344): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(358): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+e:\tutorials\semester1\basic programming\cpp_project2\c_proj2_lab\project2_template\szablon2\main.cpp(364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  szablon2vs15.vcxproj -> E:\tutorials\Semester1\Basic Programming\CPP_Project2\C_Proj2_Lab\project2_template\szablon2\Debug\szablon2vs15.exe
