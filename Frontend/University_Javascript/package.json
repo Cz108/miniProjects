@@ -1,0 +1,16 @@
+{
+  "name": "University_Javascript",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "University"
+  ],
+  "license": "MIT",
+  "author": "Hang Liu s179216",
+  "scripts": {
+    "dev": "http-server -p 85 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "0.12.3"
+  }
+}

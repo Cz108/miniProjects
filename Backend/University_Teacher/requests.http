@@ -1,0 +1,85 @@
+GET http://localhost:8080/api/teachers
+
+###
+
+GET http://localhost:8080/api/teachers/1
+
+###
+
+GET http://localhost:8080/api/teachers/5
+
+###
+
+POST http://localhost:8080/api/teachers
+Content-Type: application/json
+
+{
+  "name": "Lily",
+  "background": "a teacher.",
+  "age": 38,
+  "direction": "Electronics"
+}
+
+###
+
+PUT http://localhost:8080/api/teachers/5
+Content-Type: application/json
+
+{
+  "name": "Doctor Lily",
+  "background": "A new doctor",
+  "age": 58
+}
+
+###
+
+DELETE http://localhost:8080/api/teachers/5
+
+###
+
+GET http://localhost:8080/api/teachers/1/portrait
+
+###
+
+PUT http://localhost:8080/api/teachers/1/portrait
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="portrait"; filename="uhlbrecht.png'
+
+< ../../src/main/resources/pl/edu/pg/eti/hang/University/configuration/avatar/uhlbrecht.png
+--boundary--
+
+###
+
+GET http://localhost:8080/api/users/kevin/teachers
+
+###
+
+GET http://localhost:8080/api/users/anonymous/teachers
+
+###
+
+GET http://localhost:8080/api/users/kevin/teachers/1
+
+###
+
+GET http://localhost:8080/api/users/anonymous/teachers/1
+
+###
+
+GET http://localhost:8080/api/users/kevin/teachers/5
+
+###
+
+POST http://localhost:8080/api/users/kevin/teachers
+Content-Type: application/json
+
+{
+  "name": "Lily",
+  "background": "A teacher.",
+  "age": 38,
+  "profession": "Electronics"
+}
+
+###

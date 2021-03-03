@@ -1,0 +1,76 @@
+GET http://localhost:8080/api/teachers
+
+###
+
+GET http://localhost:8182/api/teachers/1
+
+###
+
+GET http://localhost:8182/api/teachers/1/portrait
+
+###
+
+GET http://localhost:8182/api/teachers/5
+
+###
+
+GET http://localhost:8080/api/users
+
+###
+
+GET http://localhost:8080/api/users/kevin
+
+###
+
+GET http://localhost:8080/api/users/alice
+
+###
+
+GET http://localhost:8080/api/users/kevin/teachers
+
+###
+
+GET http://localhost:8080/api/users/alice/teachers
+
+###
+
+GET http://localhost:8080/api/users/kevin/teachers/1
+
+###
+
+GET http://localhost:8080/api/users/alice/teachers/5
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "login": "damien",
+  "name": "Damien",
+  "surname": "Quality",
+  "birthDate": "1985-12-01",
+  "password": "changeit",
+  "email": "damien@example.com"
+}
+
+###
+
+POST http://localhost:8080/api/users/damien/teachers
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "background": "No one special.",
+  "age": 18,
+  "strength": 12,
+  "constitution": 12,
+  "charisma": 12,
+  "profession": "Bard"
+}
+
+###
+
+DELETE http://localhost:8080/api/users/alice
+
+###

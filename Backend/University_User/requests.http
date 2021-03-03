@@ -1,0 +1,25 @@
+GET http://localhost:8181/api/users
+
+###
+
+GET http://localhost:8181/api/users/kevin
+
+###
+
+DELETE http://localhost:8181/api/users/kevin
+
+###
+
+POST http://localhost:8181/api/users
+Content-Type: application/json
+
+{
+  "login": "damien",
+  "name": "Damien",
+  "surname": "Quality",
+  "birthDate": "1985-12-01",
+  "password": "changeit",
+  "email": "damien@example.com"
+}
+
+###

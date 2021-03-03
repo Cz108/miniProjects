@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="University student teacher management"/>
+    <meta name="keywords" content="system"/>
+    <meta name="author" content="Hang Liu"/>
+    <title>University</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <link rel="stylesheet" href="user_add.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="user_add.js" defer="defer"></script>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>University teacher management</h1>
+    </header>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="../index.html">main</a></li>
+            <li><a href="../about/about.html">about</a></li>
+            <li><a href="../user_list/user_list.html">users</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2>Creating new user</h2></header>
+            <form class="teacher__form" id="newUserForm">
+                <label for="login">Login:</label>
+                <input class="ui-control ui-input" id="login" name="login" type="text"/>
+                <label for="name">Name:</label>
+                <input class="ui-control ui-input" id="name" name="name" type="text"/>
+                <label for="surname">Surname:</label>
+                <input class="ui-control ui-input" id="surname" name="surname" type="text"/>
+                <label for="birthDate">BirthDate:</label>
+                <input class="ui-control ui-input" id="birthDate" name="birthDate" type="date"/>
+                <label for="password">Password:</label>
+                <input class="ui-control ui-input" id="password" name="password" type="password"/>
+                <label for="email">Email:</label>
+                <input class="ui-control ui-input" id="email" name="email" type="email"/>
+                <input class="ui-control ui-button" type="submit" value="Create"/>
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2020, Hang Liu s179216</p>
+        <p>All teacher's portraits were created using <a href="http://dmheroes.com">DMHeroes</a> developed by
+            <a href="https://twitter.com/ChristianOesch">Christian Oesch</a>.</p>
+    </footer>
+</div>
+</body>
+</html>
